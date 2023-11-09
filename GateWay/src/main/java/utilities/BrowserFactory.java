@@ -22,7 +22,7 @@ public class BrowserFactory {
 		 }
 		 else if(browserName.equalsIgnoreCase("Firefox"))
 		 {
-			 WebDriverManager.firefoxdriver().setup();
+			 //WebDriverManager.firefoxdriver().setup();
 			 driver=new FirefoxDriver();
 		 }
 		 else if(browserName.equalsIgnoreCase("Edge"))
